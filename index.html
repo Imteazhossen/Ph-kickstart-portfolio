@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Protest+Revolution&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Protest+Revolution&display=swap');
+
+        .montagu {
+  font-family: "Montagu Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+        .manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}    
+        </style>
+</head>
+<body class="bg-[#1E1E1E]">
+    <header>
+        <!-- nav start -->
+        <nav class="flex justify-between py-[30px] px-[40px] mx-[100px] items-center">
+            <div>
+                <h1 class="manrope text-white text-3xl">LOGO</h1>
+            </div>
+            <div class="hidden md:flex lg:flex gap-8 items-center">
+                <ul class="text-white flex gap-8">
+                    <li>Home </li>
+                    <li>About me</li>
+                    <li>Projects</li>
+                    <li>Testimonials</li>
+                </ul>
+                <button class="bg-[#E6AA32]  rounded-full px-7 py-3 font-bold">Download CV</button>
+            </div>
+            <div class="hamburgr md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>  
+            </div>
+        </nav>
+          <!-- nav end -->
+        <!-- banner start  -->
+         <section  class="mx-[100px] my-[40px] flex flex-col sm:flex-col md:flex-row lg:flex-row justify-between">
+            <!-- text discriptions left -->
+            <div class="ml-2">
+                <h1 class="text-[#797C86]">Web developer</h1>
+                <h1 class="text-white text-[60px] font-bold montagu">HI! THIS IS <br>
+                <span class="text-[#E6AA32]">IMTEAZ HOSSEN</span></h1>
+                <p class="text-[#797C86]">As a web designer with four years of experience, I specialize in <br> creating visually appealing and user-friendly websites. My <br> expertise includes responsive design, UI/UX principles, and <br> collaborating with clients to bring their visions to life.</p>
+                <div class="flex gap-5 items-center my-5">
+                <button class="bg-[#E6AA32] rounded-full px-7 py-3 font-bold">Let's Connect</button>
+                 <h1 class="text-white">View Portfolio</h1>
+                 <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                  </svg>
+                </div>
+            </div>
+            <!-- image and backgroup right -->
+            <div class="h-full items-center mt-10">
+                <img src="./images/Frame 12250 (1).png" alt="">
+            </div>
+         </section>
+        <!-- banner end  -->
+    </header>
+    <main>
+        <section class="manrope mx-[100px] my-[130px]">
+            <!-- discriptions  -->
+             <div class="font-semibold ">
+                <h1 class="text-[#797C86] text-center">SPECIALITIES</h1>
+                <h1 class="text-[48px] text-white text-center">MY SPECIALITIES</h1>
+                <P class="text-[#797C86] text-center">As a web designer with four years of experience, I specialize in creating visually appealing <br> and user-friendly websites. My expertise includes responsive design.</P>
+             </div>
+             <!-- cards  -->
+             <div class=" mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 ">
+              <div class="h-[270px] w-[260px] bg-[#171b1e] p-6 ">
+              <img src="./images/card8.png" alt="" class="ml-16">
+              <h1 class="text-white text-[18px] text-center">Frontend Development</h1>
+              <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+              </div>
+              <div class="h-[270px] w-[260px] bg-[#171b1e] p-6">
+                <img src="./images/card2.png" alt="" class="ml-16">
+                <h1 class="text-white text-[18px] text-center">Backend-End Development</h1>
+                <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+              </div>
+              <div class="h-[270px] w-[260px] bg-[#171b1e] p-6">
+                    <img src="./images/card3.png" alt="" class="ml-16">
+                    <h1 class="text-white text-[18px] text-center">Full-Stack Development</h1>
+                    <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+              </div>
+              <div class="h-[270px] w-[260px] bg-[#171b1e] p-6">
+                        <img src="./images/card4.png" alt="" class="ml-16">
+                        <h1 class="text-white text-[18px] text-center">Web Application Security</h1>
+                        <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+              </div>
+              <div class="h-[270px] w-[260px] bg-[#171b1e] p-6">
+                    <img src="./images/card5.png" alt="" class="ml-16">
+                    <h1 class="text-white text-[18px] text-center">E-Commerce Development</h1>
+                    <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+              </div>
+              <div class="h-[270px] w-[260px] bg-[#171b1e] p-6">
+                        <img src="./images/card6.png" alt="" class="ml-16">
+                        <h1 class="text-white text-[18px] text-center">Cloud-Based  Development</h1>
+                        <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+              </div>
+              <div class="h-[270px] w-[260px] bg-[#171b1e] p-6">
+                            <img src="./images/card7.png" alt="" class="ml-16">
+                            <h1 class="text-white text-[18px] text-center">Progressive Web Apps</h1>
+                            <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+                <div class="h-[270px] w-[260px] bg-[#171b1e] p-6">
+                  <img src="./images/card1.png" alt="" class="ml-16">
+                  <h1 class="text-white text-[18px] text-center">Frontend Development</h1>
+                  <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+             </div>
+        </section>
+        <section class="manrope mx-[100px] my-[130px]">
+            <!-- discriptions  -->
+            <div class="font-semibold ">
+                <h1 class="text-[#797C86] text-center">RECENT WORKS</h1>
+                <h1 class="text-[48px] text-white text-center">MY RECENT WORKS</h1>
+                <P class="text-[#797C86] text-center">As a web designer with four years of experience, I specialize in creating <br> visually appealing and user-friendly websites. My expertise includes <br> responsive design.</P>
+             </div>
+             <!-- cards -->
+              <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="w-[320px] h-[250px] bg-[#ffffff1f]"></div>
+                <div class="w-[320px] h-[250px] bg-[#ffffff1f]"></div>
+                <div class="w-[320px] h-[250px] bg-[#ffffff1f]"></div>
+                <div class="w-[320px] h-[250px] bg-[#ffffff1f]"></div>
+                <div class="w-[320px] h-[250px] bg-[#ffffff1f]"></div>
+                <div class="w-[320px] h-[250px] bg-[#ffffff1f]"></div>
+              </div>
+        </section>
+        <section class="manrope mx-[100px] my-[130px]">
+            <!-- discriptions  -->
+            <div class="font-semibold ">
+                <h1 class="text-[#797C86] text-center">SERVICES</h1>
+                <h1 class="text-[48px] text-white text-center">MY OTHER SERVICES</h1>
+                <P class="text-[#797C86] text-center">As a web designer with four years of experience, I specialize in creating visually appealing <br> and user-friendly websites. My expertise includes responsive design.</P>
+             </div>
+             <!-- cards -->
+              <div class=" mt-10 grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="h-[220px] w-[260px] bg-[#171b1e] p-6 pt-10">
+                    <h1 class="text-white text-[18px] text-center">Website Development</h1>
+                    <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+                <div class="h-[220px] w-[260px] bg-[#171b1e] p-6 pt-10">
+                    <h1 class="text-white text-[18px] text-center">E-Commerce Development</h1>
+                    <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+                <div class="h-[220px] w-[260px] bg-[#171b1e] p-6 pt-10">
+                    <h1 class="text-white text-[18px] text-center">Web App Development</h1>
+                    <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+                <div class="h-[220px] w-[260px] bg-[#171b1e] p-6 pt-10">
+                    <h1 class="text-white text-[18px] text-center"> API Dev. & Integration</h1>
+                    <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+                <div class="h-[220px] w-[260px] bg-[#171b1e] p-6 pt-10">
+                    <h1 class="text-white text-[18px] text-center">Cloud-Based Solutions</h1>
+                    <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+                <div class="h-[220px] w-[260px] bg-[#171b1e] p-6 pt-10">
+                    <h1 class="text-white text-[18px] text-center">Web Perform. Optimization</h1>
+                    <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+                <div class="h-[220px] w-[260px] bg-[#171b1e] p-6 pt-10">
+                    <h1 class="text-white text-[18px] text-center">(SEO) Services</h1>
+                    <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+                <div class="h-[220px] w-[260px] bg-[#171b1e] p-6 pt-10">
+                    <h1 class="text-white text-[18px] text-center">Website Maint. & Support</h1>
+                    <p class="text-[#797C86] font-semibold text-[14px] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+              </div>
+        </section>
+        <section class="manrope mx-[100px] my-[130px]">
+            <div>
+                <h1 class="text-[#797C86] text-start">FAQ'S</h1>
+                <h1 class="text-[48px] text-white font-semibold text-start">FREQUENTLY ASKED QUESTIONS</h1>
+                <hr class="mt-5">
+            </div>
+            <!-- questions  -->
+            <div class="flex items-center justify-between px-[50px]">
+                <div class="">
+                <br>
+                <h1 class="font-semibold text-[20px] text-[#AFB0B6] uppercase py-[30px]">What areas of web development do you focus on?</h1>
+                <br>
+                <h1 class="text-[18px] text-[#797C86]">I specialize in web development, creating websites that deliver unique user experiences.</h1>
+                </div>
+                <div>
+                  <img src="./images/Icon.png" alt="">
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="flex items-center justify-between px-[50px]">
+                <div class="">
+                <br>
+                <h1 class="font-semibold text-[20px] text-[#AFB0B6] uppercase py-[30px]">How can I schedule a web development consultation with you?</h1>
+                <br>
+                </div>
+                <div>
+                   <img src="./images/Button.png" alt="">
+                </div>
+            </div>
+            <hr>
+            <div class="flex items-center justify-between px-[50px]">
+                <div class="">
+                <br>
+                <h1 class="font-semibold text-[20px] text-[#AFB0B6] uppercase py-[30px]">Can I choose a specific platform for my website?</h1>
+                <br>
+                </div>
+                <div>
+                   <img src="./images/Button.png" alt="">
+                </div>
+            </div>
+            <hr>
+            <div class="flex items-center justify-between px-[50px]">
+                <div class="">
+                <br>
+                <h1 class="font-semibold text-[20px] text-[#AFB0B6] uppercase py-[30px]">What tools and technologies do you use for web development??</h1>
+                <br>
+                </div>
+                <div>
+                   <img src="./images/Button.png" alt="">
+                </div>
+            </div>
+            <hr>
+            <div class="flex items-center justify-between px-[50px]">
+                <div class="">
+                <br>
+                <h1 class="font-semibold text-[20px] text-[#AFB0B6] uppercase py-[30px]">Can I choose a specific platform for my website?</h1>
+                <br>
+                </div>
+                <div>
+                   <img src="./images/Button.png" alt="">
+                </div>
+            </div>
+            <hr>
+        </section>
+        <!-- list area -->
+         <hr>
+         <section class="flex flex-col md:flex-row justify-evenly my-[100px] mx-[100px] manrope">
+            <div>
+                <ul>
+                    <li class="font-semibold text-[18px] text-[#797C86] mb-4">SOLUTIONS</li>
+                    <li class="text-white my-2">GLINTOPIA</li>
+                    <li class="text-white my-2">FLUXWAY</li>
+                    <li class="text-white my-2">FABLE'S</li>
+                    <li class="text-white my-2">POWERCORE</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="font-semibold text-[18px] text-[#797C86] mb-4">CUSTOMERS</li>
+                    <li class="text-white my-2">GLINTOPIA</li>
+                    <li class="text-white my-2">FLUXWAY</li>
+                    <li class="text-white my-2">FABLE'S</li>
+                    <li class="text-white my-2">POWERCORE</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="font-semibold text-[18px] text-[#797C86] mb-4">PARTNERS</li>
+                    <li class="text-white my-2">GLINTOPIA</li>
+                    <li class="text-white my-2">FLUXWAY</li>
+                    <li class="text-white my-2">FABLE'S</li>
+                    <li class="text-white my-2">POWERCORE</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="font-semibold text-[18px] text-[#797C86] mb-4">STAKEHOLDERS</li>
+                    <li class="text-white my-2">GLINTOPIA</li>
+                    <li class="text-white my-2">FLUXWAY</li>
+                    <li class="text-white my-2">FABLE'S</li>
+                    <li class="text-white my-2">POWERCORE</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="font-semibold text-[18px] text-[#797C86] mb-4">OFFERINGS</li>
+                    <li class="text-white my-2">GLINTOPIA</li>
+                    <li class="text-white my-2">FLUXWAY</li>
+                    <li class="text-white my-2">FABLE'S</li>
+                    <li class="text-white my-2">POWERCORE</li>
+                </ul>
+            </div>    
+         </section>
+         <hr>
+         <footer class="flex mx-[100px] justify-between py-[40px]">
+            <div>
+                <h1 class="text-[#797C86]">Terms & conditions       Privacy Policy</h1>
+            </div>
+            <div>
+                <h1 class="text-[#797C86]"> © 2024 All rights reserved.</h1>
+            </div>
+         </footer>
+    </main>
+    
+</body>
+</html>
